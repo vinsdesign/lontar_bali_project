@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: url(./fonts/Montserrat-Bold.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 600;
+    font-style: normal;
+    src: url(./fonts/Montserrat-SemiBold.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url(./fonts/Montserrat-Medium.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/Montserrat-Regular.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat-Italic';
+    font-weight: 400;
+    font-style: Italic;
+    src: url(./fonts/Montserrat-Italic.woff) format('woff');
+  }
+}
