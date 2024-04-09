@@ -13,12 +13,12 @@
         />
       </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0 flex justify-end z-10 w-full py-2 gap-2 pr-9 pb-5">
+    <div class="absolute bottom-[5%] w-full flex justify-center items-center gap-2">
       <a
         v-for="(image, index) in images"
         :key="index"
         :href="'#item' + (index + 1)"
-        class="py-2 px-2 bg-mediumBlue rounded-full border-gray-400"
+        class="xxsm:w-5 xxsm:h-2 base:w-7 base:h-3 md:w-9 md:h-3 lg:w-10 lg:h-3 bg-white btn-circle border-gray-400"
         :class="{
           active: index + 1 === currentIndex
         }"
