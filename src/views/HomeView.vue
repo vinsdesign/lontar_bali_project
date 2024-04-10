@@ -1,9 +1,13 @@
 <script setup>
-import CarouselImage from '@/components/carousel/CarouselImage.vue'
 import NavbarComponent from '@/components/navbar/NavbarComponent.vue'
+import CarouselImage from '@/components/carousel/CarouselImage.vue'
+import SearchComponent from '@/components/SearchComponent/SearchComponent.vue'
 </script>
 
 <template>
-  <NavbarComponent />
-  <CarouselImage />
+<NavbarComponent />
+  <header class="relative">
+    <CarouselImage />
+    <SearchComponent />
+  </header>
 </template>
