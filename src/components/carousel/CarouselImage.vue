@@ -13,7 +13,7 @@
         />
       </div>
     </div>
-    <div class="absolute bottom-[5%] w-full flex justify-center items-center gap-2">
+    <!-- <div class="absolute bottom-[5%] w-full flex justify-center items-center gap-2">
       <a
         v-for="(image, index) in images"
         :key="index"
@@ -24,7 +24,7 @@
         }"
         @click="goToImage(index)"
       ></a>
-    </div>
+    </div> -->
   </div>
 </template>
 
