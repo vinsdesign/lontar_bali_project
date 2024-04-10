@@ -1,7 +1,11 @@
 <script setup>
 import CarouselImage from '@/components/carousel/CarouselImage.vue'
+import SearchComponent from '@/components/SearchComponent/SearchComponent.vue'
 </script>
 
 <template>
-  <CarouselImage />
+  <header class="relative">
+    <CarouselImage />
+    <SearchComponent />
+  </header>
 </template>
