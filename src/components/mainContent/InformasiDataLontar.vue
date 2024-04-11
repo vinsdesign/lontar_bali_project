@@ -1,6 +1,6 @@
 <script setup>
 import DatabaseIcon from '@/components/icons/DatabaseIcon.vue'
-import BookIcon from '@/components/icons/DatabaseIcon.vue'
+import BookIcon from '@/components/icons/BookIcon.vue'
 import SaveBookIcon from '@/components/icons/SaveBookIcon.vue'
 </script>
 
@@ -26,7 +26,7 @@ import SaveBookIcon from '@/components/icons/SaveBookIcon.vue'
         >
           <DatabaseIcon />
           <p class="text-white text-lg hover:text-orangePastel duration-500">
-            <span class="font-bold">2000</span> Data Lontar Terdigitalisasi
+            <span class="font-montsBold">35</span> Data Lontar Terdigitalisasi
           </p>
         </section></a
       >
@@ -36,7 +36,7 @@ import SaveBookIcon from '@/components/icons/SaveBookIcon.vue'
         >
           <BookIcon />
           <p class="text-white text-lg text-center hover:text-orangePastel duration-500">
-            <span class="font-bold">2000</span> Data Lontar Terdigitalisasi
+            <span class="font-montsBold">3000</span> Data Lontar Tersimpan
           </p>
         </section>
       </a>
@@ -46,7 +46,7 @@ import SaveBookIcon from '@/components/icons/SaveBookIcon.vue'
         >
           <SaveBookIcon />
           <p class="text-white text-center text-lg hover:text-orangePastel duration-500">
-            <span class="font-bold">2000</span> Data Lontar Terdigitalisasi
+            <span class="font-montsBold">7</span> Data Lontar Terklasifikasi
           </p>
         </section>
       </a>
