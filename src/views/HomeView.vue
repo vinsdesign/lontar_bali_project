@@ -3,6 +3,8 @@ import NavbarComponent from '@/components/navbar/NavbarComponent.vue'
 import CarouselImage from '@/components/carousel/CarouselImage.vue'
 import SearchComponent from '@/components/SearchComponent/SearchComponent.vue'
 import FooterComponent from '@/components/footer/FooterComponent.vue'
+import SejarahLontar from '@/components/mainContent/SejarahLontar.vue'
+import InformasiDataLontar from '@/components/mainContent/InformasiDataLontar.vue'
 </script>
 
 <template>
@@ -11,6 +13,9 @@ import FooterComponent from '@/components/footer/FooterComponent.vue'
     <CarouselImage />
     <SearchComponent />
   </header>
-  <main></main>
+  <main>
+    <informasiDataLontar />
+    <SejarahLontar />
+  </main>
   <FooterComponent />
 </template>
