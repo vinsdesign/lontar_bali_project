@@ -2,7 +2,7 @@
   <!-- header -->
 
   <header
-    class="flex flex-col justify-center items-center absolute xxsm:top-[35%] xxsm:right-[10%] xsm:top-[35%] xsm:right-[9%] base:top-[35%] base:right-[19%] sm:top-[40%] sm:right-[19%] md:top-[40%] md:right-[23%] lg:top-[40%] lg:right-[27%] xl:top-[40%] xl:right-[26%] 2xl:top-[40%] 2xl:right-[25%]"
+    class="flex flex-col justify-center items-center absolute xxsm:top-[35%] xxsm:right-[10%] xsm:top-[35%] xsm:right-[9%] base:top-[35%] base:right-[19%] sm:top-[40%] sm:right-[19%] md:top-[40%] md:right-[23%] lg:top-[40%] lg:right-[27%] xl:top-[40%] xl:right-[26%] 2xl:top-[40%] 2xl:right-[25 %]"
   >
     <h1
       class="text-white font-medium xxsm:text-sm xsm:text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl xxsm:mb-0"
