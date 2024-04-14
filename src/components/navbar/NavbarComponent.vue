@@ -71,9 +71,9 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import logo from '@/components/icons/logo.vue'
 
 const navigation = [
-  { name: 'Beranda', href: '#', current: true },
-  { name: 'Sejarah Lontar', href: '#', current: false },
-  { name: 'Koleksi Lontar', href: '#', current: false },
+  { name: 'Beranda', href: '/', current: false },
+  { name: 'Sejarah Lontar', href: '/SejarahLontar', current: false },
+  { name: 'Koleksi Lontar', href: '/KoleksiLontar', current: false },
   { name: 'Tentang Kami', href: '#', current: false }
 ]
 </script>
