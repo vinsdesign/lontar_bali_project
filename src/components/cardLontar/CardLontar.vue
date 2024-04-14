@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 defineProps({
   lontar: {
     type: Object,
@@ -25,7 +26,11 @@ defineProps({
           Detail Deskripsi Lengkap Lontar, judul lontar : {{ lontar.title }}, tipe bahan:
           {{ lontar.type }}, subjek: {{ lontar.subject }}, klasifikasi: {{ lontar.klasifikasi }} ,
           bahasa: {{ lontar.bahasa }},
-          <a href="" class="text-orangePastel font-montsMedium">Selengkapnya.</a>
+          <RouterLink
+            :to="{ name: 'detail-lontar', params: { id: lontar.id } }"
+            class="text-orangePastel font-montsMedium"
+            >Selengkapnya.</RouterLink
+          >
         </p>
       </div>
       <figure class="xxsm:order-1 md:order-none">
