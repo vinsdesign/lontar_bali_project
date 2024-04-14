@@ -10,8 +10,8 @@ const apiClient = axios.create({
 })
 
 export default {
-  getLontars() {
-    return apiClient.get('/lontar')
+  getLontars(perPage, page) {
+    return apiClient.get('/lontar?_limit=' + perPage + '&_page' + page)
   },
   getLontar(id) {
     return apiClient.get('/lontar/' + id)

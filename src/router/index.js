@@ -20,6 +20,7 @@ const router = createRouter({
     {
       path: '/KoleksiLontar',
       name: 'koleksi-lontar',
+      props: (route) => ({ page: parseInt(route.query.page) || 1 }),
       component: CollectionLontar
     },
     {
@@ -28,15 +29,6 @@ const router = createRouter({
       props: true,
       component: DetailLontarView
     }
-
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (About.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/AboutView.vue')
-    // }
   ]
 })
 
