@@ -19,11 +19,12 @@ import {
   faXmark,
   faMagnifyingGlass,
   faEnvelope,
-  faMapPin
+  faMapPin,
+  faAngleLeft
 } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faHouse, faBars, faXmark, faMagnifyingGlass, faEnvelope, faMapPin)
+library.add(faHouse, faBars, faXmark, faMagnifyingGlass, faEnvelope, faMapPin, faAngleLeft)
 
 const app = createApp(App)
 

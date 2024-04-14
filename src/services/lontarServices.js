@@ -12,5 +12,8 @@ const apiClient = axios.create({
 export default {
   getLontars() {
     return apiClient.get('/lontar')
+  },
+  getLontar(id) {
+    return apiClient.get('/lontar/' + id)
   }
 }
